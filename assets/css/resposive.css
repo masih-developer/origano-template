@@ -1,0 +1,248 @@
+@media only screen and (max-width:1400px) {
+    .container {
+        width: 1140px;
+    }
+
+    .product-view-modal {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .header__searchbar-wrapper {
+        width: 50rem;
+    }
+
+    .navbar-dropdown__megamenu-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+
+    .header-info__offer-text {
+        margin-bottom: 2rem;
+    }
+
+    .header-account-wrapper {
+        flex-direction: column;
+    }
+
+    .header-account-logo-search-wrapper {
+        width: 100%;
+    }
+
+    .header-account__user-info {
+        display: none;
+    }
+
+    .header-account-secound__user-btn, .header-account-secound__search-btn {
+        display: flex;
+    }
+
+    .header__searchbar-wrapper {
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        width: 100%;
+    }
+
+    .header__searchbar-wrapper--show {
+        height: 5rem;
+        overflow: visible;
+        opacity: 1;
+        margin-top: 2rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-sidebar {
+        display: block;
+    }
+
+    .navbar-bottom {
+        display: block;
+    }
+
+    .product-view__action__btns-wrapper {
+        gap: 1rem;
+    }
+
+    .product-view__action__btn {
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        margin-bottom: 6rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        width: 540px;
+    }
+
+    .header-info__offer-text {
+        display: none;
+    }
+
+    .header-info-texts-wrapper {
+        display: none;
+    }
+
+    .header-info-options-wrapper {
+        justify-content: space-evenly;
+    }
+
+    .product-view-modal {
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -100%;
+    }
+
+    .product-view-modal--active {
+        top: 50%;
+    }
+
+    .product-view-wrapper {
+        max-height: 60rem;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        width: 100%;
+    }
+
+    /* * {
+        cursor: default !important;
+    } */
+
+
+    .navbar-bottom-list {
+        padding: 1rem;
+    }
+
+    .cart-sidebar__item-wrapper {
+        align-items: flex-start;
+    }
+
+    .navbar-bottom__btn {
+        font-size: 1.1rem;
+    }
+
+    .cart-sidebar {
+        width: 30rem;
+        left: -30rem;
+    }
+
+    .cart-sidebar-info__title {
+        font-size: 1.8rem;
+    }
+
+    .cart-sidebar__item__img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .cart-sidebar-details {
+        flex-direction: column;
+    }
+
+    .cart-sidebar-count {
+        align-self: flex-start;
+    }
+
+    .cart-sidebar-details__price {
+        align-self: flex-end;
+    }
+
+    .product-view-modal {
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: -100%;
+    }
+
+    .product-view-modal--active {
+        top: 50%;
+    }
+
+    .product-view-wrapper {
+        max-height: 50rem;
+        overflow: auto;
+    }
+
+    .newsletter {
+        margin-bottom: 5rem;
+    }
+
+    .footer-title {
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo__caption {
+        margin: 2rem 0;
+    }
+
+    .footer-app__caption {
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo, .footer-fastlink, .footer-contactus {
+        margin-bottom: 3rem;
+    }
+
+    .footer-copyright-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-copyright__text {
+        align-self: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .footer-copyright__list {
+        align-self: flex-end;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .product-view__tags-wrapper, .product-view__share__btns-wraper {
+        flex-direction: column;
+    }
+
+    .product-view-tags__title, .product-view__share__btns__title {
+        align-self: flex-start;
+        margin: 0 0 1rem 0;
+    }
+
+    .product-view__tags-list, .product-view__share__btns-list {
+        align-self: flex-end;
+    }
+
+    .product-view__action__btns-wrapper {
+        flex-direction: column;
+    }
+
+    .product-view__action__btn {
+        width: 70%;
+    }
+
+    .footer-fastlink__list {
+        max-width: 14rem;
+    }
+}

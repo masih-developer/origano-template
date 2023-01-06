@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اُریگانو</title>
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/payment.css">
+    <link rel="stylesheet" href="assets/css/resposive.css">
+</head>
+
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="header-info">
+            <div class="container">
+                <div class="header-info-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-12 col-lg-5">
+                            <p class="header-info__offer-text">ارسال رایگان با خرید <span>بالای 100 هزار
+                                    تومان!</span></p>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-4">
+                            <div class="header-info-texts-wrapper">
+                                <a href="aboutus.html" class="header-info__text header-info__callus-text">با ما تماس
+                                    بگیرید</a>
+                                <a href="#" class="header-info__text header-info__discount-text">تخفیف</a>
+                                <a href="faq.html" class="header-info__text header-info__help-text">کمک خواستن ؟</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-lg-3">
+                            <div class="header-info-options-wrapper">
+                                <div class="header-info__list-wrapper header-info-language">
+                                    <i class="fa-light fa-earth-europe"></i>
+                                    <span class="header-info__list__subject">زبان</span>
+                                    <i class="fa-regular fa-angle-down"></i>
+                                    <ul class="header-info__dropdown">
+                                        <li class="language__item">
+                                            <a href="#" class="language__link language__link--active">انگلیسی</a>
+                                        </li>
+                                        <li class="language__item">
+                                            <a href="#" class="language__link">آلمانی</a>
+                                        </li>
+                                        <li class="language__item">
+                                            <a href="#" class="language__link">فرانسوی</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header-info__list-wrapper header-info-currency">
+                                    <i class="fa-light fa-sack-dollar"></i>
+                                    <span class="header-info__list__subject">واحد
+                                        پول</span>
+                                    <i class="fa-regular fa-angle-down"></i>
+                                    <ul class="header-info__dropdown">
+                                        <li class="language__item">
+                                            <a href="#" class="language__link language__link--active">
+                                                <i class="fa-light fa-dollar-sign"></i>
+                                                دلار آمریکا
+                                            </a>
+                                        </li>
+                                        <li class="language__item">
+                                            <a href="#" class="language__link">
+                                                <i class="fa-light fa-euro-sign"></i>
+                                                یورو اُروپا
+                                            </a>
+                                        </li>
+                                        <li class="language__item">
+                                            <a href="#" class="language__link">
+                                                <i class="fa-light fa-sterling-sign"></i>
+                                                پوند
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-account">
+            <div class="container">
+                <div class="header-account-wrapper">
+                    <div class="header-account-logo-search-wrapper">
+                        <button class="app-btn header-account__btn header-account-secound__user-btn" title="حساب">
+                            <i class="fa-regular fa-user"></i>
+                        </button>
+                        <a href="index.html" class="header-account__logo">
+                            اُریگــانو
+                            <i class="fa-regular fa-grapes"></i>
+                        </a>
+                        <button class="app-btn header-account__btn header-account-secound__search-btn">
+                            <i class="fa-regular fa-magnifying-glass header__searchbar-icon"></i>
+                        </button>
+                    </div>
+                    <div class="header__searchbar-wrapper">
+                        <form action="#" class="header__searchbar">
+                            <input type="text" class="app-input header__searchbar-input"
+                                placeholder="در اینحا جستجو کنید...">
+                            <i class="fa-regular fa-magnifying-glass header__searchbar-icon"></i>
+                        </form>
+                    </div>
+                    <div class="header-account__user-info">
+                        <a href="login.html" class="app-btn header-account__btn header__user-account-btn" title="حساب">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                        <button class="app-btn header-account__btn header__user-basket-btn" title="سبد خرید"
+                            data-count-basket="0">
+                            <i class="fa-regular fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-sidebar">
+            <div class="cart-sidebar__head">
+                <button class="app-btn cart-sidebar__close-btn">
+                    <i class="fa-regular fa-xmark"></i>
+                </button>
+                <div class="cart-sidebar__title-wrapper">
+                    <i class="fa-regular fa-cart-shopping"></i>
+                    <h3 class="cart-sidebar__title">کل موارد (<span>0</span>)</h3>
+                </div>
+            </div>
+            <ul class="cart-sidebar__list"></ul>
+            <a href="cart.html" class="cart-payment-werapper">
+                <p class="cart-payment__text">ادامه پرداخت</p>
+                <p class="cart-payment__total__prices">
+                    <span>0</span>
+                    تومان
+                </p>
+            </a>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-wrapper">
+                    <div class="navbar-list-wrapper">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="index.html" class="navbar__link">خانه</a>
+                            </li>
+                            <li class="navbar__item navbar__menu">
+                                <a href="#" class="navbar__link navbar-dropdown__arrow">مقالات</a>
+                                <ul class="dropdown__menu__list">
+                                    <li class="dropdown__menu__item">
+                                        <a href="" class="dropdown__menu__link">شبکه وبلاگ</a>
+                                    </li>
+                                    <li class="dropdown__menu__item">
+                                        <a href="" class="dropdown__menu__link">استاندارد وبلاگ</a>
+                                    </li>
+                                    <li class="dropdown__menu__item">
+                                        <a href="" class="dropdown__menu__link">جزئیات ولاگ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navbar__item navbar__megamenu">
+                                <a href="#" class="navbar__link navbar-dropdown__arrow">دسته بندی</a>
+                                <ul class="navbar-dropdown__megamenu">
+                                    <div class="container">
+                                        <div class="navbar-dropdown__megamenu-wrapper">
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">سبزیجات تازه</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">هویج</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">خیار</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">بادمجان</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">کلم بروکلی</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">نوشیدنی بدون الکل</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">دلستر</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">نوشابه</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">ایستک</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">رانی</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">گوشت</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">گوشت قرمز</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">گوشت گوسفندی</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">راسته گوسفندی</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">گوشت گوساله</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">غذاهای دریایی</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">ماهی</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">میگو</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">خرچنگ</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">هشت پا</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <img src="assets/images/header/navbar/2-1068x836.jpg" alt=""
+                                                    class="megamenu__list__img">
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">فست فود ها</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">ساندویچ</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">پیتزا</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">همبرگر</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">اسنک</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">غذاهای خشک</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">ذرت</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">تخم مرغ</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">غذاهای پختنی</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">غذای خشک</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">میوه و آب میوه</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">آناناس</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">آب پرتقال</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">آب انبه</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">موز</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <h3 class="megamenu__title">لبنیات و تخم مرغ</h3>
+                                                <ul class="dropdown__megamenu__list">
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">شیر</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">ماست</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">پنیر</a>
+                                                    </li>
+                                                    <li class="drowpdown__menu__item">
+                                                        <a href="#" class="dropdown__menu__link">خامه</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="megamenu__list-wrapper">
+                                                <img src="assets/images/header/navbar/4-1068x836.jpg" alt=""
+                                                    class="megamenu__list__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="cart.html" class="navbar__link">سبد خرید</a>
+                            </li>
+                            <li class="navbar__item navbar__menu">
+                                <a href="#" class="navbar__link navbar-dropdown__arrow">حساب</a>
+                                <ul class="dropdown__menu__list">
+                                    <li class="dropdown__menu__item">
+                                        <a href="profile.html" class="dropdown__menu__link">پروفایل من</a>
+                                    </li>
+                                    <li class="dropdown__menu__item">
+                                        <a href="login.html" class="dropdown__menu__link">ورود</a>
+                                    </li>
+                                    <li class="dropdown__menu__item">
+                                        <a href="register.html" class="dropdown__menu__link">ثبت نام</a>
+                                    </li>
+                                    <li class="dropdown__menu__item">
+                                        <a href="change-password.html" class="dropdown__menu__link">تغییر رمز عبور</a>
+                                    </li>
+                                    <li class="dropdown__menu__item">
+                                        <a href="set-password.html" class="dropdown__menu__link">تنظیم رمز عبور</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-contact">
+                        <i class="fa-regular fa-envelope-open-text"></i>
+                        <div class="navbar-email__info">
+                            <p class="navbar-email__text">برای ما ایمیل بزنید</p>
+                            <p class="navbar-email__address">origano@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="navbar-sidebar">
+            <div class="navbar-sidebar-header">
+                <a href="#" class="app-logo__text navbar-sidebar-header__logo">
+                    اُریگــانو
+                    <i class="fa-regular fa-grapes"></i>
+                </a>
+                <button class="app-btn navbar-sidebar-header__btn">
+                    <i class="fa-regular fa-xmark"></i>
+                </button>
+            </div>
+            <ul class="navbar-sidebar__list">
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-leafy-green navbar-sidebar__link-category__icon"></i>
+                        سبزیجات تازه
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">هویج</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">خیار</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">بادمجان</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">کلم بروکلی</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-crate-apple navbar-sidebar__link-category__icon"></i>
+                        مواد غذایی و کالاهای اصلی
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">برنج</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">روغن</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">حبوبات</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">گوشت</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-citrus-slice navbar-sidebar__link-category__icon"></i>
+                        میوه و آب میوه
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">آناناس</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">آب پرتقال</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">آب انبه</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">موز</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-cheese-swiss navbar-sidebar__link-category__icon"></i>
+                        لبنیات و تخم مرغ
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">شیر</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">ماست</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">پنیر</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">خامه</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-lobster navbar-sidebar__link-category__icon"></i>
+                        غذاهای دریایی و ماهی ها
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">ماهی</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">میگو</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">خرچنگ</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">هشت پا</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-pot-food navbar-sidebar__link-category__icon"></i>
+                        غذاهای رژیمی
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">هویج</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">هویج</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">هویج</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">هویج</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-bowl-rice navbar-sidebar__link-category__icon"></i>
+                        غذاهای خشک
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">ذرت</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">تخم مرغ</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">غذاهای پختنی</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">غذای خشک</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-burger-fries navbar-sidebar__link-category__icon"></i>
+                        فست فود ها
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">ساندویچ</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">پیتزا</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">همبرگر</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">اسنک</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-martini-glass-citrus navbar-sidebar__link-category__icon"></i>
+                        نوشیدنی ها
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">دلستر</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">نوشابه</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">ایستک</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">رانی</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-mug-hot navbar-sidebar__link-category__icon"></i>
+                        قهوه و چای
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">قهوه ترک</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">چای ایرانی</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">کاپوچینو</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">چای سبز</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar-sidebar__item">
+                    <a href="#" class="navbar-sidebar__link">
+                        <i class="fa-regular fa-steak navbar-sidebar__link-category__icon"></i>
+                        گوشت
+                        <i class="fa-regular fa-angle-down navbar-sidebar__link-angle__icon"></i>
+                    </a>
+                    <ul class="navbar-sidebar-dropdown">
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">گوشت قرمز</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">گوشت گوسفندی</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">راسته گوسفندی</a>
+                        </li>
+                        <li class="navbar-sidebar-dropdown__item">
+                            <a href="#" class="navbar-sidebar-dropdown__link">گوشت گوساله</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="navbar-sidebar__foote__text">
+                کلیه ی حقوق محفوظ است توسط <a href="index.html"> اُریگانو </a>
+            </p>
+        </div>
+        <div class="navbar-bottom">
+            <ul class="navbar-bottom-list">
+                <li class="navbar-bottom__item">
+                    <a href="#" class="navbar-bottom__btn">
+                        <i class="fa-regular fa-house"></i>
+                        خانه
+                    </a>
+                </li>
+                <li class="navbar-bottom__item">
+                    <button class="app-btn navbar-bottom__btn navbar-bottom__btn--category-btn">
+                        <i class="fa-regular fa-chart-tree-map"></i>
+                        دسته بندی
+                    </button>
+                </li>
+                <li class="navbar-bottom__item">
+                    <button class="app-btn navbar-bottom__btn navbar-bottom__btn--cart-btn" data-count-basket="0">
+                        <i class="fa-regular fa-cart-shopping"></i>
+                        سبد خرید
+                    </button>
+                </li>
+                <li class="navbar-bottom__item">
+                    <a href="#" class="navbar-bottom__btn navbar-bottom__btn--favorite-link" data-count-favorite="2">
+                        <i class="fa-regular fa-heart"></i>
+                        علاقه مندی ها
+                    </a>
+                </li>
+                <li class="navbar-bottom__item">
+                    <a href="#" class="navbar-bottom__btn navbar-bottom__btn--compare-link" data-count-compare="4">
+                        <i class="fa-regular fa-arrow-right-arrow-left"></i>
+                        مقایسه
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start page loader -->
+    <div class="page-loader page-loader--active">
+        <div class="page-loader__content">
+            <div class="page-loader__item"></div>
+            <div class="page-loader__item"></div>
+            <div class="page-loader__item"></div>
+        </div>
+    </div>
+    <!-- end page loader -->
+
+    <!-- start app background overaly -->
+    <div class="app-bg__overaly"></div>
+    <!-- end app background overaly -->
+
+    <!-- start cart alert -->
+    <div class="add-to-cart__alert">
+        <ul class="add-to-cart__alert-list-wrapper"></ul>
+    </div>
+    <!-- end cart alert -->
+
+    <!-- start product view modal -->
+    <div class="product-view-modal">
+        <div class="product-view-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="product-view__img-wrapper">
+                            <img src="assets/images/products/cucumber.png" alt="" class="product-view__img">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="product-view__content">
+                            <h4 class="section-title product-view__title">سیب ارگانیک تازه</h4>
+                            <div class="product-view__info-wrapper">
+                                <p class="product-view__product-code">
+                                    کد محصول:
+                                    <a href="#">3214567</a>
+                                </p>
+                                <p class="product-view__brand-name">
+                                    مارک تجاری:
+                                    <a href="#">تسولیا</a>
+                                </p>
+                            </div>
+                            <div class="product-view-rank-wrapper">
+                                <div class="product-view__outerlist">
+                                    <div class="product-view__innerlist"></div>
+                                </div>
+                                <a href="#" class="product-view__rate__point">(<span>10</span> نظر)</a>
+                            </div>
+                            <div class="product-view-prices-wrapper">
+                                <h4 class="product-view-prices__currentprice"><span>60000</span> تومان</h4>
+                                <h5 class="product-view-prices__oldprice"><span>80000</span> تومان</h5>
+                            </div>
+                            <p class="product-view__content__caption">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها سطرآنچنان که لازم است
+                            </p>
+                            <div class="product-view__tags-wrapper">
+                                <p class="product-view-tags__title">برچسب ها:</p>
+                                <ul class="product-view__tags-list">
+                                    <li class="product-view__tags__item">
+                                        <a href="#" class="product-view__tags__link">میوه ها</a>
+                                    </li>
+                                    <li class="product-view__tags__item">
+                                        <a href="#" class="product-view__tags__link">ارگانیک</a>
+                                    </li>
+                                    <li class="product-view__tags__item">
+                                        <a href="#" class="product-view__tags__link">سبزیجات</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-view__status-wrapper">
+                                <p class="product-view__status__subject">در انبار:</p>
+                                <p class="product-view__status__condition">در دسترس</p>
+                            </div>
+                            <div class="product-view-product-count-wrapper">
+                                <p class="product-view-product-count__title">تعداد:</p>
+                                <div class="product-view-product-count-btns">
+                                    <button class="app-btn product-view-product__plus-btn">
+                                        <i class="fa-regular fa-minus"></i>
+                                    </button>
+                                    <span class="product-view-product__number-btn">0</span>
+                                    <button class="app-btn product-view-product__minus-btn">
+                                        <i class="fa-regular fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <button class="app-btn product-view__addtocart-btn">
+                                <i class="fa-regular fa-cart-shopping"></i>
+                                <span>افزدون به سبد خرید</span>
+                            </button>
+                            <div class="product-view__action__btns-wrapper">
+                                <button class="app-btn product-view__action__btn">
+                                    <i class="fa-regular fa-heart"></i>
+                                    افزودن به علاقه مندی ها
+                                </button>
+                                <button class="app-btn product-view__action__btn">
+                                    <i class="fa-regular fa-arrow-right-arrow-left"></i>
+                                    افزودن برای مقایسه
+                                </button>
+                            </div>
+                            <div class="product-view__share__btns-wraper">
+                                <p class="product-view__share__btns__title">اشتراک گذاری:</p>
+                                <ul class="product-view__share__btns-list">
+                                    <li class="product-view__share__btns__item">
+                                        <a href="#" class="product-view__share__btns__link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="product-view__share__btns__item">
+                                        <a href="#" class="product-view__share__btns__link">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="product-view__share__btns__item">
+                                        <a href="#" class="product-view__share__btns__link">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="product-view__share__btns__item">
+                                        <a href="#" class="product-view__share__btns__link">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="app-btn product-view-modal__close-btn">
+                <i class="fa-regular fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+    <!-- end product view modal -->
+
+    <!-- start go to up page button -->
+    <button class="app-btn app__gotoupbtn">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </button>
+    <!-- end go to up page button -->
+
+    <!-- start payment details form -->
+    <div class="payment-form">
+        <div class="payment-form-wrapper" id="new-address">
+            <h3 class="payment-form__title">آدرس جدید وارد کنید</h3>
+            <label for="newAddress" class="payment-form__input-label">عنوان</label>
+            <input type="text" id="newAddress" class="app-input payment-form__input" placeholder="عنوان را وارد کنید">
+            <label for="addressCaption" class="payment-form__input-label">نشانی</label>
+            <textarea id="addressCaption" rows="6" class="app-input payment-form__textarea"
+                placeholder="آدرس خود را وارد کنید"></textarea>
+            <button class="app-btn payment-form__submit-btn" class="payment-form__submit-btn">اطلاعات آدرس را ذخیره
+                کنید</button>
+            <button class="app-btn payment-form__close-btn">
+                <i class="fa-regular fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+    <!-- end payment details form -->
+
+    <!-- start main -->
+    <main class="main">
+        <section class="breadcrumbs">
+            <h3 class="breadcrumbs__title">پرداخت</h3>
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                    <a href="index.html" class="breadcrumbs__link breadcrumbs__link-arrow">خانه</a>
+                </li>
+                <li class="breadcrumbs__item breadcrumbs__item--active">
+                    <a href="javascript:void(0)" class="breadcrumbs__link">پرداخت</a>
+                </li>
+            </ul>
+        </section>
+        <section class="payment-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="payment-sending__item" id="location-address">
+                            <div class="guide-section">
+                                <h4 class="guide-section__title">نشانی تحویل</h4>
+                                <button class="app-btn guide-section-btn" data-form-content="new-address">
+                                    <i class="fa-regular fa-location-dot"></i>
+                                    اضافه کردن ادرس
+                                </button>
+                            </div>
+                            <div class="row">
+                                <!-- <div class="col-4">
+                                    <div class="user-choices user-choices--active">
+                                        <h5 class="user-choices__title">آدرس یک</h5>
+                                        <p class="user-choices__caption">
+                                            ایران - تهران - خیابان بهار
+                                        </p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__edit-btn">
+                                                <i class="fa-regular fa-pencil"></i>
+                                            </li>
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices">
+                                        <h5 class="user-choices__title">آدرس دو</h5>
+                                        <p class="user-choices__caption">
+                                            ایران - تهران - خیابان بهار
+                                        </p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__edit-btn">
+                                                <i class="fa-regular fa-pencil"></i>
+                                            </li>
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices">
+                                        <h5 class="user-choices__title">آدرس سه</h5>
+                                        <p class="user-choices__caption">
+                                            ایران - تهران - خیابان بهار
+                                        </p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__edit-btn">
+                                                <i class="fa-regular fa-pencil"></i>
+                                            </li>
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="payment-sending__item" id="delivery-parents">
+                            <div class="guide-section">
+                                <h4 class="guide-section__title">شرکا تحویل</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="user-choices user-choices--active">
+                                        <h5 class="user-choices__title">پنل یک</h5>
+                                        <p class="user-choices__caption">
+                                            تحویل یک روزه
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices">
+                                        <h5 class="user-choices__title">پنل دو</h5>
+                                        <p class="user-choices__caption">
+                                            تحویل دو روزه
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices">
+                                        <h5 class="user-choices__title">پنل سه</h5>
+                                        <p class="user-choices__caption">
+                                            تحویل سه روزه
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-sending__item" id="phone-number">
+                            <div class="guide-section">
+                                <h4 class="guide-section__title">شماره تماس</h4>
+                                <button class="app-btn guide-section-btn">
+                                    <i class="fa-regular fa-phone"></i>
+                                    افزدون مخاطب
+                                </button>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="user-choices user-choices--active">
+                                        <h5 class="user-choices__title">شماره تماس یک</h5>
+                                        <p class="user-choices__caption">
+                                            0215265489
+                                        </p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__edit-btn">
+                                                <i class="fa-regular fa-pencil"></i>
+                                            </li>
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices">
+                                        <h5 class="user-choices__title">شماره تماس دو</h5>
+                                        <p class="user-choices__caption">
+                                            0215265489
+                                        </p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__edit-btn">
+                                                <i class="fa-regular fa-pencil"></i>
+                                            </li>
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices">
+                                        <h5 class="user-choices__title">شماره تماس سه</h5>
+                                        <p class="user-choices__caption">
+                                            0215265489
+                                        </p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__edit-btn">
+                                                <i class="fa-regular fa-pencil"></i>
+                                            </li>
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-sending__item" id="payment-options">
+                            <div class="guide-section">
+                                <h4 class="guide-section__title">گزینه پرداخت</h4>
+                                <button class="app-btn guide-section-btn">
+                                    <i class="fa-regular fa-credit-card"></i>
+                                    کارت اضافه کن
+                                </button>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="user-choices payment-gateway user-choices--active">
+                                        <img src="assets/images/main/Payment gateway/01.png" alt=""
+                                            class="payment-sending__img">
+                                        <p class="payment-sending_subject">شماره کارت</p>
+                                        <p class="payment-sending__card-number">
+                                            <span>****</span>
+                                            <span>****</span>
+                                            <span>****</span>
+                                            <span>9349</span>
+                                        </p>
+                                        <p class="payment-sending__username">نام کاربری</p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices payment-gateway">
+                                        <img src="assets/images/main/Payment gateway/02.png" alt=""
+                                            class="payment-sending__img">
+                                        <p class="payment-sending_subject">شماره کارت</p>
+                                        <p class="payment-sending__card-number">
+                                            <span>****</span>
+                                            <span>****</span>
+                                            <span>****</span>
+                                            <span>9349</span>
+                                        </p>
+                                        <p class="payment-sending__username">نام کاربری</p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="user-choices payment-gateway">
+                                        <img src="assets/images/main/Payment gateway/03.png" alt=""
+                                            class="payment-sending__img">
+                                        <p class="payment-sending_subject">شماره کارت</p>
+                                        <p class="payment-sending__card-number">
+                                            <span>****</span>
+                                            <span>****</span>
+                                            <span>****</span>
+                                            <span>9349</span>
+                                        </p>
+                                        <p class="payment-sending__username">نام کاربری</p>
+                                        <ul class="user-choices__actions">
+                                            <li class="user-choices__actions__item user-choices__delete-btn">
+                                                <i class="fa-regular fa-xmark"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <div class="col-4">
+                        <div class="cart-payment__accounting">
+                            <div class="guide-section">
+                                <h4 class="guide-section__title">خلاصه سفارش</h4>
+                            </div>
+                            <ul class="cart-payment__accounting__list"></ul>
+                            <button class="app-btn cart-payment__final-purchases-btn">تهیه شده برای پرداخت</button>
+                            <form action="#" class="cart-payment__discount">
+                                <input type="text" class="app-input cart-payment__discount__input"
+                                    placeholder="کد تخفیف خود را وارد کنید">
+                                <button type="submit" class="app-btn cart-payment__discount__btn">درخواست دادن</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-10 col-lg-6 col-xl-7">
+                        <h3 class="newsletter__title">
+                            برای به روزرسانی خبرنامه ما منتشر شوید
+                        </h3>
+                        <P class="newsletter__caption">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                        </P>
+                    </div>
+                    <div class="col-12 col-md-10 col-lg-6 col-xl-5">
+                        <form action="#">
+                            <div class="newsletter__email-input-wraper">
+                                <input type="text" class="app-input newsletter__email-input"
+                                    placeholder="آدرس ایمیل خود را وارد کنید">
+                                <button type="submit" class="app-btn newsletter__submit-btn">
+                                    اشتراک
+                                    <i class="fa-regular fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-logo">
+                        <a href="index.html" class="app-logo__text footer-logo__title">
+                            اُریگــانو
+                            <i class="fa-regular fa-grapes"></i>
+                        </a>
+                        <p class="footer-logo__caption">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و
+                        </p>
+                        <div class="footer-logo__links-wrapper">
+                            <a href="javascript:void(0)" class="footer-logo__link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="footer-logo__link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="footer-logo__link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="footer-logo__link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="footer-logo__link">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8 col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-fastlink">
+                        <h4 class="footer-title footer-fastlink__title">لینک های سریع</h4>
+                        <div class="footer-fastlink__lists-wrapper">
+                            <ul class="footer-fastlink__list">
+                                <li class="footer-fastlink__item">
+                                    <a href="profile.html" class="footer-fastlink__link">پروفایل من</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="javascript:void(0)" class="footer-fastlink__link">تاریخچه سفارش ها</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="javascript:void(0)" class="footer-fastlink__link">پیگیری سفارش</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="register.html" class="footer-fastlink__link">ایجاد حساب</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="login.html" class="footer-fastlink__link">ورود به سیستم</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="javascript:void(0)" class="footer-fastlink__link">حمایت کردن</a>
+                                </li>
+                            </ul>
+                            <ul class="footer-fastlink__list">
+                                <li class="footer-fastlink__item">
+                                    <a href="aboutus.html" class="footer-fastlink__link">درباره ما</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="javascript:void(0)" class="footer-fastlink__link">شرکت های وابسته</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="aboutus.html" class="footer-fastlink__link">با ما تماس بگیرید</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="javascript:void(0)" class="footer-fastlink__link">حرفه ما</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="javascript:void(0)" class="footer-fastlink__link">حریم خصوصی</a>
+                                </li>
+                                <li class="footer-fastlink__item">
+                                    <a href="faq.html" class="footer-fastlink__link">پرسش و پاسخ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-5 col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-contactus">
+                        <h4 class="footer-title footer-contactus__title">با ما تماس بگیرید</h4>
+                        <ul class="footer-contactus__list">
+                            <li class="footer-contactus__item">
+                                <i class="fa-light fa-envelope-open-text"></i>
+                                <div class="footer-contactus__mails-wrapper">
+                                    <p class="footer-contactus__mail">info@gmail.com</p>
+                                    <p class="footer-contactus__mail">hello@gmail.com</p>
+                                </div>
+                            </li>
+                            <li class="footer-contactus__item">
+                                <i class="fa-light fa-phone-flip"></i>
+                                <div class="footer-contactus__phones-wrapper">
+                                    <p class="footer-contactus__phone">0215659846</p>
+                                    <p class="footer-contactus__phone">0218539941</p>
+                                </div>
+                            </li>
+                            <li class="footer-contactus__item">
+                                <i class="fa-light fa-location-dot"></i>
+                                <p class="footer-contactus__location">ایران - تهران - خیابان جمهوری</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-7 col-md-6 col-lg-7 col-xl-3">
+                    <div class="footer-app">
+                        <h4 class="footer-title footer-app__title">بارگیری برنامه</h4>
+                        <p class="footer-app__caption">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                            است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
+                        </p>
+                        <div class="footer-app__links-wrapper">
+                            <a href="javascript:void(0)" class="footer-app__link">
+                                <img src="assets/images/footer/play-store.png" alt="" class="footer-app__link__img">
+                            </a>
+                            <a href="javascript:void(0)" class="footer-app__link">
+                                <img src="assets/images/footer/app-store.png" alt="" class="footer-app__link__img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="footer-copyright-wrapper">
+                    <p class="footer-copyright__text">© کپی رایت 1400 <a href="index.html">اُریگانو</a> کلیه
+                        حقوق محفوظ است.</p>
+                    <ul class="footer-copyright__list">
+                        <li class="footer-copyright__item">
+                            <a href="javascript:void(0)" class="footer-copyright__link">
+                                <i class="fa-brands fa-cc-paypal"></i>
+                            </a>
+                        </li>
+                        <li class="footer-copyright__item">
+                            <a href="javascript:void(0)" class="footer-copyright__link">
+                                <i class="fa-brands fa-cc-discover"></i>
+                            </a>
+                        </li>
+                        <li class="footer-copyright__item">
+                            <a href="javascript:void(0)" class="footer-copyright__link">
+                                <i class="fa-brands fa-cc-stripe"></i>
+                            </a>
+                        </li>
+                        <li class="footer-copyright__item">
+                            <a href="javascript:void(0)" class="footer-copyright__link">
+                                <i class="fa-brands fa-cc-visa"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/payment.js"></script>
+</body>
+
+</html>

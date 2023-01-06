@@ -1,0 +1,625 @@
+/* 
+=============================================
+main-slider section styles
+=============================================
+*/
+
+.main-slider {
+    height: 50rem;
+}
+
+.main-slider__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 
+=============================================
+banner section styles
+=============================================
+*/
+
+.banner {
+    margin-top: 5rem;
+}
+
+.banner-img-wrapper {
+    position: relative;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.banner-img-wrapper__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-img-wrapper:hover .banner-grid__img {
+    transform: scale(1.1);
+}
+
+.banner-grid__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--app-transition);
+}
+
+.banner-img-content {
+    position: absolute;
+    right: 5rem;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.banner-img-content__info {
+    color: var(--gray-color);
+    font-size: 1.8rem;
+    font-family: var(--app-font-light);
+}
+
+.banner-img-content__title {
+    font-family: var(--app-font-bold);
+    font-size: 4rem;
+    color: #000;
+    max-width: 25rem;
+}
+
+.banner-img-content__link {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-bottom: .15rem solid var(--primary-color);
+    transition: var(--app-transition);
+}
+
+.banner-img-content__link:hover {
+    color: var(--text-color);
+    border-bottom: .15rem solid var(--text-color);
+}
+
+
+/* 
+=============================================
+to-product section styles
+=============================================
+*/
+
+.popular-product {
+    margin-top: 10rem;
+}
+
+.popular-product__product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+}
+
+.popular-product__seemore-btn {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    margin: 5rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 5rem;
+    border-radius: .5rem;
+    transition: var(--app-transition);
+}
+
+.popular-product__seemore-btn svg {
+    font-size: 1.8rem;
+    margin-left: .5rem;
+}
+
+.popular-product__seemore-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+/* 
+=============================================
+advertise-banner section styles
+=============================================
+*/
+
+.advertise-banner {
+    margin-top: 15rem;
+}
+
+.advertise-banner__item {
+    display: block;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+.advertise-banner__item:hover .advertise-banner__item__img {
+    transform: scale(1.05);
+}
+
+.advertise-banner__item__img {
+    width: 100%;
+    height: 15rem;
+    display: block;
+    object-fit: cover;
+    transition: var(--app-transition);
+}
+
+/* 
+=============================================
+discount-timer section styles
+=============================================
+*/
+
+.discount-timer {
+    margin-top: 10rem;
+    padding: 5rem 0;
+    background-color: #9FA8DA;
+}
+
+.discount-timer__content {
+    text-align: center;
+}
+
+.discount-timer__title {
+    font-family: var(--app-font-medium);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.discount-timer__caption {
+    max-width: 46rem;
+    margin: 0 auto 2rem auto;
+}
+
+.discount-timer__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.discount-timer__item {
+    margin-left: 2rem;
+}
+
+.discount-timer__item:nth-child(even) {
+    font-size: 4rem;
+    font-size: 2.8rem;
+}
+
+.discount-timer__item:last-child {
+    margin-left: 0;
+}
+
+.discount-timer__time__title {
+    font-size: 4rem;
+    position: relative;
+    display: block;
+}
+
+.discount-timer__time__title::after {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    right: 0;
+    font-family: var(--app-font-medium);
+    font-size: 1.7rem;
+}
+
+.discount-timer__secound::after {
+    content: "ثانیه";
+}
+
+.discount-timer__minute::after {
+    content: "دقیقه";
+}
+
+.discount-timer__hour::after {
+    content: "ساعت";
+}
+
+.discount-timer__day::after {
+    content: "روز";
+}
+
+.discount-timer__shopnow__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    transition: var(--app-transition);
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
+
+.discount-timer__shopnow__btn svg {
+    margin-left: 1rem;
+}
+
+.discount-timer__shopnow__btn:hover {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+.discount-timer-banner__img-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.discount-timer-banner__offprcie {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    padding: 2.5rem;
+    margin: auto;
+    border-radius: 50%;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.discount-timer-banner__offprcie span {
+    display: block;
+}
+
+/* 
+=============================================
+discount-timer section styles
+=============================================
+*/
+
+.our-partners {
+    background: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/main/home page/our-partners-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 20rem;
+    color: var(--white-color);
+    padding: 7rem 0 10rem 0;
+}
+
+.our-partners__title {
+    color: var(--white-color);
+    margin-bottom: 0;
+}
+
+.our-partners__item-wrapper {
+    margin-top: 5rem;
+}
+
+.our-partners__item {
+    background-color: var(--white-color);
+    overflow: hidden;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.our-partners__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2rem;
+}
+
+/* 
+=============================================
+user-trust section styles
+=============================================
+*/
+
+.user-trust {
+    margin: 10rem 0;
+    padding: 10rem 0;
+    background-color: var(--white-color);
+}
+
+.user-trust-option {
+    display: flex;
+    align-items: center;
+    cursor: default;
+    margin-bottom: 5rem;
+}
+
+.user-trust-option:hover .user-trust-option__icon-wrapper {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.user-trust-option__icon-wrapper {
+    min-width: 5rem;
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .3rem double var(--primary-color);
+    border-radius: 50%;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    transition: var(--app-transition);
+}
+
+.user-trust-option__content {}
+
+.user-trust-option__title {
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+.user-trust__option__caption {
+    color: var(--gray-color);
+}
+
+/* 
+=============================================
+lastest-news section styles
+=============================================
+*/
+
+.lastest-news {
+    margin-bottom: 15rem;
+}
+
+.lastest-news__title {}
+
+.lastest-news__news {
+    background-color: var(--white-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.lastest-news__news:hover .lastest-news__news__img {
+    transform: scale(1.05);
+}
+
+.lastest-news__news__picture {
+    position: relative;
+}
+
+.lastest-news__news__img-wrapper {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.lastest-news__news__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: var(--app-transition);
+}
+
+.lastest-news__news__realese-wrapper {
+    position: absolute;
+    bottom: -1rem;
+    left: 2rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    line-height: 1.2;
+}
+
+.lastest-news__news__realese__date {
+    font-size: 2rem;
+}
+
+.lastest-news__news__realese__day {
+    font-size: 1.4rem;
+}
+
+.lastest-news__news__content {}
+
+.lastest-news__news__subject-wrapper {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lastest-news__news__puplishd-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.lastest-news__news__user-idea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastest-news__news__puplishd-person svg, .lastest-news__news__user-idea svg {
+    color: var(--primary-color);
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+
+.lastest-news__news__caption {
+    display: block;
+    color: var(--text-color);
+    font-size: 2.2rem;
+    transition: var(--app-transition);
+}
+
+.lastest-news__news__caption:hover {
+    color: var(--primary-color);
+}
+
+.lastest-news__news__btn {
+    display: block;
+    margin: 2rem 0;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lastest-news__news__btn:hover svg {
+    transform: translateX(-.6rem);
+}
+
+.lastest-news__news__btn svg {
+    margin-right: .5rem;
+    transition: var(--app-transition);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+======================================
+resposive css
+======================================
+*/
+
+@media only screen and (max-width:1400px) {}
+
+@media only screen and (max-width:1200px) {
+    .banner-img-wrapper {
+        height: 25rem;
+    }
+
+    .banner-img-content {
+        right: 3rem;
+    }
+
+    .banner-img-content__title {
+        font-size: 3rem;
+    }
+
+    .discount-timer-banner__img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .banner-img-wrapper {
+        height: 19rem;
+    }
+
+    .banner-img-content {
+        right: 2rem;
+    }
+
+    .banner-img-content__info {
+        font-size: 1.6rem;
+    }
+
+    .banner-img-content__title {
+        font-size: 2.5rem;
+        max-width: 19rem;
+    }
+
+    .user-trust {
+        margin: 5rem 0;
+    }
+
+    .newsletter__email-input-wraper {
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .banner-img-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .main-slider {
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .advertise-banner__item {
+        margin-bottom: 2rem;
+    }
+
+    .discount-timer-banner__img-wrapper {
+        margin-top: 5rem;
+    }
+
+    .discount-timer-banner__offprcie {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .newsletter {
+        padding: 5rem 0;
+    }
+
+    .newsletter__submit-btn {
+        padding: 1.4rem 4.5rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .discount-timer__title {
+        font-size: 3.5rem;
+    }
+
+    .discount-timer__time__title {
+        font-size: 3rem;
+    }
+
+    .discount-timer__time__title::after {
+        font-size: 1.6rem;
+    }
+
+    .discount-timer__title {
+        margin-bottom: 2rem;
+        line-height: 1.4;
+    }
+
+    .newsletter__title {
+        font-size: 3rem;
+        line-height: 1.4;
+    }
+
+    .newsletter__email-input-wraper {
+        flex-direction: column;
+    }
+
+    .newsletter__email-input {
+        padding: 1.5rem 1rem;
+    }
+
+    .newsletter__submit-btn {
+        width: 100%;
+    }
+
+}

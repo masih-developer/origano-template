@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "iran-sans-light";
+    src: url("../fonts/iran-sans/light/IRANSansWeb\(FaNum\)_Light.eot") format("eot"),
+        url("../fonts/iran-sans/light/IRANSansWeb\(FaNum\)_Light.ttf") format("truetype"),
+        url("../fonts/iran-sans/light/IRANSansWeb\(FaNum\)_Light.woff") format("woff"),
+        url("../fonts/iran-sans/light/IRANSansWeb\(FaNum\)_Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "iran-sans";
+    src: url("../fonts/iran-sans/normal/IRANSansWeb\(FaNum\).eot") format("eot"),
+        url("../fonts/iran-sans/normal/IRANSansWeb\(FaNum\).ttf") format("truetype"),
+        url("../fonts/iran-sans/normal/IRANSansWeb\(FaNum\).woff") format("woff"),
+        url("../fonts/iran-sans/normal/IRANSansWeb\(FaNum\).woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "iran-sans-medium";
+    src: url("../fonts/iran-sans/medium/IRANSansWeb\(FaNum\)_Medium.eot") format("eot"),
+        url("../fonts/iran-sans/medium/IRANSansWeb\(FaNum\)_Medium.ttf") format("truetype"),
+        url("../fonts/iran-sans/medium/IRANSansWeb\(FaNum\)_Medium.woff") format("woff"),
+        url("../fonts/iran-sans/medium/IRANSansWeb\(FaNum\)_Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "iran-sans-bold";
+    src: url("../fonts/iran-sans/bold/IRANSansWeb\(FaNum\)_Bold.eot") format("eot"),
+        url("../fonts/iran-sans/bold/IRANSansWeb\(FaNum\)_Bold.ttf") format("truetype"),
+        url("../fonts/iran-sans/bold/IRANSansWeb\(FaNum\)_Bold.woff") format("woff"),
+        url("../fonts/iran-sans/bold/IRANSansWeb\(FaNum\)_Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "iran-sans-black";
+    src: url("../fonts/iran-sans/black/IRANSansWeb\(FaNum\)_Black.eot") format("eot"),
+        url("../fonts/iran-sans/black/IRANSansWeb\(FaNum\)_Black.ttf") format("truetype"),
+        url("../fonts/iran-sans/black/IRANSansWeb\(FaNum\)_Black.woff") format("woff"),
+        url("../fonts/iran-sans/black/IRANSansWeb\(FaNum\)_Black.woff2") format("woff2");
+}
+
